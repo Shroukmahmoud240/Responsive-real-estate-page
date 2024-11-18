@@ -1,0 +1,199 @@
+/* body{height: 7000px;} */
+.navbar li:not(.dropdown-menu li){
+     margin-left:20px; 
+     margin-top: -9px;
+    font-size: larger;
+    transition: 1s;
+} 
+.navbar li a{    color: rgb(201, 199, 199) !important;}
+.navbar li a:hover:not(.dropdown-menu li a){
+    color: rgb(254, 254, 254) !important;
+    text-decoration: underline;
+}
+.navbar .btn{background-color: rgb(141, 141, 143);}
+.navbar{background-color: rgba(12, 8, 50, 0.858);} 
+.dropdown-menu li a{color: rgba(8, 4, 47, 0.848) !important;}
+.dropdown-menu{background-color: rgb(127, 129, 129); }
+#btnlog{margin-right: 70%;}
+ .cont2{
+    margin-top: 68px !important;
+    position: relative !important;
+ }
+ .carousel-item img{height:100% !important;}
+ #Welcome-div{ background-color: rgba(4, 10, 75, 0.833) !important;}
+ .div-main{background-color: rgba(4, 10, 75, 0.833) !important;}
+ #btn-textarea{margin: 20px 0!important;}
+ textarea{
+    border-radius: 20px;
+    columns: 100 ;
+ }
+ .empty_one, .empty_two{
+   width: 90% !important;
+    background: url(../images/logo.avif) center no-repeat;
+    background-size: 100% 100% ;
+    position: relative;
+    background-attachment: fixed;
+    height: 50vh;
+ }
+ .empty_two{
+    background: url(../images/1600w-V6qr80Pdw2Y.webp) center no-repeat;
+    background-size: 100%  100% ;
+    background-attachment: fixed;
+ }
+ .d_top{
+    background-color: white;
+    width: 90%;
+    position: absolute;
+    min-height: 30%;
+}
+#fixed-icons{
+   width: 60px;
+   top: 70px;
+   right: 0;
+   font-size: 40px;
+   position: fixed !important;
+   z-index: 40; 
+}
+#fixed-icons div i{ color: rgb(34, 37, 125)} 
+#fixed-icons div i:hover{
+   color: rgb(29, 34, 83) ;
+   font-size: 50px;
+}
+.card-header a{color: aliceblue;}
+#copy-part{background-color: rgba(138, 136, 136, 0.456);}
+.move{position: relative;}
+.move::before{
+   content: "" ;
+   width: 0 ;
+   height: 0 ;
+   opacity: 0 ;
+   top: 0 ;
+   left: 0 ;
+   background-color: gray ;
+   position: absolute;
+   transition: 1s;
+   border: 2px solid rgb(86, 85, 85);
+}
+.move:hover:before{
+   width: 100% ;
+   height: 100% ;
+   opacity: .2 ;
+}
+.move::after{
+   content: "" ;
+   width: 0 ;
+   height: 0 ;
+   opacity: 0 ;
+   bottom: 0 ;
+   right: 0 ;
+   background-color: rgb(167, 163, 163) ;
+   position: absolute;
+   transition: 1s;
+   border: 1px solid gray;
+}
+.move:hover::after{
+   width: 100% ;
+   height: 100% ;
+   opacity: .2 ;
+}
+ .images {
+   border-radius: 50px;
+   height: 350px;
+   background:url(../images/villa1.jpg) center no-repeat ;
+   background-size: 100% 100% ;
+   position: relative;
+   text-align: center;
+ }
+ .images .overlay{
+   border-radius: 50px ;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(168, 168, 168, 0.416);
+ }
+ .images:hover{
+   width: 250px;
+   margin-top: 20px;
+     height: 310px;
+     transition: .5s;
+     box-shadow: 1px 2px 5px 5px rgb(183, 182, 182) ;
+ }
+ #imge1,#imge2,#imge3{
+   margin-top: 55%;
+   background: url(../images/villa1.jpg) center no-repeat;
+   background-size: 100% 100% ;
+   position: absolute;
+   width: 90px;
+   height: 130px;
+   border-radius: 45px;
+ }
+ .podcast-card {
+   background-color: #f8f9fa;
+   border-radius: 10px;
+   padding: 20px;
+   box-shadow: 1px 4px 6px 6px rgba(0, 0, 0, 0.1);
+}
+.divs{margin-bottom: 50px;}
+.line{
+   width: 50px;
+   height: 3px;
+   background-color: rgba(2, 16, 93, 0.466);
+   transition: 0.4s;
+}
+.divs:hover .line{
+   width: 100px;
+}
+.social-card {
+   border: 1px solid #e0e0e0;
+   border-radius: 10px;
+   text-align: center;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: all 0.3s ease;
+   background-color: #ffffff;
+ }
+ .social-card:hover {
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   transform: translateY(-5px);
+ }
+ .social-card img {
+   width: 50px;
+   height: 50px;
+   margin-bottom: 10px;
+ }
+ .social-card h6 {
+   font-size: 1.2rem;
+   color: #333;
+   margin-bottom: 10px;
+ }
+ .social-card a {
+   font-size: 0.9rem;
+   text-decoration: none;
+   color: #007bff;
+ }
+ .section-title {
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-bottom: 30px;
+   color: #6c63ff;
+ }
+.links{
+   width: 30%;
+   height: 100%;
+   padding-left: 100px;
+   padding-top: 20px;
+}
+.links a{
+   display: block;
+   color: #a8a7a7;
+   margin-top: 10px;
+   width: 250px;
+   transition: .25s;
+}
+.links a:hover,.card-header a:hover{
+   font-size: larger;
+   color: #ffffff;
+   text-decoration:underline ;
+   text-shadow: 1px 1px 10px white;
+}
