@@ -14,7 +14,7 @@
 .navbar{background-color: rgba(12, 8, 50, 0.858);} 
 .dropdown-menu li a{color: rgba(8, 4, 47, 0.848) !important;}
 .dropdown-menu{background-color: rgb(127, 129, 129); }
-#btnlog{margin-right: 70%;}
+/* #btnlog{right: 70%;} */
  .cont2{
     margin-top: 68px !important;
     position: relative !important;
